@@ -10,7 +10,6 @@ Copy-Item "$env:APPDATA\Code\User\settings.json" -Destination $vscodeSettingsFil
 Copy-Item "$env:APPDATA\Code\User\keybindings.json" -Destination $vscodeSettingsFile
 
 # Backup Oh My Posh configuration
-oh-my-posh config export --output $ohMyPoshConfigFile
 oh-my-posh config export > $ohMyPoshConfigFile
 Write-Host "VSCode extensions list saved to $vscodeExtensionsFile"
 Write-Host "VSCode settings saved to $vscodeSettingsFile"
