@@ -651,6 +651,14 @@
     {
       "Query": "2066.99/4",
       "ExecutedDateTime": "2024-11-28T22:11:40.6572972-05:00"
+    },
+    {
+      "Query": "\u003E tree",
+      "ExecutedDateTime": "2024-11-30T15:49:37.402296-05:00"
+    },
+    {
+      "Query": "s devices",
+      "ExecutedDateTime": "2024-11-30T15:49:53.9234459-05:00"
     }
   ]
 }

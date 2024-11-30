@@ -41,3 +41,18 @@ pip install -r $pythonPackages
 npm install -g pnpm
 
 # Setup All Configs
+
+# # vscode
+# Read the list of extensions from the file
+$extensions = Get-Content -Path "configs\VSCode\extensions.txt"
+
+# Loop through each extension and install it
+foreach ($extension in $extensions) {
+    Write-Host "Installing $extension..."
+    code --install-extension $extension
+}
+
+Write-Host "VSCode Extensions Installation complete!"
+# Copy Backup Files from Backup SSD to PC
+
+# Generate and Copy SSH key to clipboard
