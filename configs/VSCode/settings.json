@@ -1,0 +1,24 @@
+{
+    "workbench.colorTheme": "Monokai Pro (Filter Ristretto)",
+    "workbench.iconTheme": "vscode-icons",
+    "files.autoSave": "afterDelay",
+    "explorer.confirmDelete": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "vscode-office.editorTheme": "Light",
+    "cmake.generator": "MinGW Makefiles",
+    "git.openRepositoryInParentFolders": "never",
+    "python.createEnvironment.trigger": "off",
+    "workbench.editorAssociations": {
+        "{git,gitlens}:/**/*.{md,csv,svg}": "default"
+    },
+    "editor.fontFamily": "FiraCode Nerd Font Mono, FiraCode Nerd Font Mono",
+    "editor.codeLensFontFamily": "FiraCode Nerd Font Mono",
+    "editor.experimentalInlineEdit.fontFamily": "FiraCode Nerd Font Mono",
+    "terminal.integrated.fontFamily": "Agave Nerd Font",
+    "vscode-office.openOutline": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "markdown-preview-enhanced.enablePreviewZenMode": false,
+    "editor.lineNumbers": "relative"
+}
