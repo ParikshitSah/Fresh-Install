@@ -42,7 +42,7 @@ npm install -g pnpm
 
 # Setup All Configs
 
-# # vscode
+# # vscode extensions
 # Read the list of extensions from the file
 $extensions = Get-Content -Path "configs\VSCode\extensions.txt"
 
@@ -53,6 +53,15 @@ foreach ($extension in $extensions) {
 }
 
 Write-Host "VSCode Extensions Installation complete!"
+# # vscode settings
+
+# Source Files
+$vscodeSettingsFile = ".\configs\VSCode\settings.json"
+$vscodeKeyBindingsFile = ".\configs\VSCode\keybindings.json"
+# Copy backedup configs to vscode directory
+Copy-Item "$vscodeSettingsFile -Destination $env:APPDATA\Code\User\settings.json"
+Copy-Item "$vscodeKeyBindingsFile -Destination $env:APPDATA\Code\User\keybindings.json"
+
 # Copy Backup Files from Backup SSD to PC
 
 # Generate and Copy SSH key to clipboard
