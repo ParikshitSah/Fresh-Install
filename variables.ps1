@@ -1,0 +1,5 @@
+$vscodeSettingsFile = "configs\VSCode\settings.json"
+$vscodeExtensionsFile = "\configs\VSCode\extensions.txt"
+$vscodeKeyBindingsFile = "configs\VSCode\keybindings.json"
+$ohMyPoshConfigFile = "configs\OhMyPosh\config.json"
+$flowLauncherFolder = "configs\FlowLauncher"
