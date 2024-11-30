@@ -20,5 +20,6 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "markdown-preview-enhanced.enablePreviewZenMode": false,
-    "editor.lineNumbers": "relative"
+    "editor.lineNumbers": "relative",
+    "git.confirmSync": false
 }

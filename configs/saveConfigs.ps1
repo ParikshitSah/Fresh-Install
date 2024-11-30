@@ -14,3 +14,9 @@ oh-my-posh config export > $ohMyPoshConfigFile
 Write-Host "VSCode extensions list saved to $vscodeExtensionsFile"
 Write-Host "VSCode settings saved to $vscodeSettingsFile"
 Write-Host "Oh My Posh configuration saved to $ohMyPoshConfigFile"
+
+# Backup FlowLauncher configuration
+$flowLauncherFolder = "configs\FlowLauncher"
+
+robocopy $env:APPDATA\FlowLauncher\Settings $flowLauncherFolder\Settings "/E"   
+robocopy $env:APPDATA\FlowLauncher\Plugins $flowLauncherFolder\Plugins  "/E"         

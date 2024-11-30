@@ -40,4 +40,4 @@ pip install -r $pythonPackages
 # Install pnpm using npm (comes with Node.js)
 npm install -g pnpm
 
-# test commit
+# Setup All Configs
