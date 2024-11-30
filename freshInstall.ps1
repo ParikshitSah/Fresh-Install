@@ -16,12 +16,12 @@ winget install "Flow Launcher"
 winget install Obsidian.Obsidian
 winget install Spotify.Spotify
 winget install --id=TheBrowserCompany.Arc -e
-winget install WhatsApp.WhatsApp
+# winget install WhatsApp.WhatsApp
 winget install Microsoft.PowerToys
 winget install Bitwarden.Bitwarden
-winget install Arduino.IDE
+winget install --id=ArduinoSA.IDE.stable  -e
 winget install Microsoft.VisualStudioCode
-winget install Zotero.Zotero
+winget install --id=DigitalScholar.Zotero  -e
 winget install JanDeDobbeleer.OhMyPosh
 winget install Microsoft.WindowsTerminal
 winget install KiCad.KiCad
