@@ -30,7 +30,8 @@ winget install KiCad.KiCad
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
 
 # Install fonts
-# TODO 
+oh-my-posh font install Agave
+oh-my-posh font install FiraCode
 
 # Install pip (if not already installed with Python)
 python -m ensurepip --upgrade
