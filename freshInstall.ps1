@@ -27,7 +27,7 @@ winget install Microsoft.WindowsTerminal
 winget install KiCad.KiCad
 
 # Refresh environment variables
-$env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
+$env:Path = [System.Environment]::GetEnvironmentVariable("Path", "Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path", "User")
 
 # Install fonts
 oh-my-posh font install Agave
@@ -37,7 +37,7 @@ oh-my-posh font install FiraCode
 python -m ensurepip --upgrade
 
 # Walabot might not install properly make sure to add it to Programs > Walabot and then add bin to PATH
-# TODO
+# Flag
 
 # Install Python packages from requirements.txt
 $pythonPackages = ".\Python Packages\packages.txt"
@@ -77,6 +77,6 @@ oh-my-posh init pwsh --config $ohMyPoshConfigFile | Invoke-Expression
 . $PROFILE
 
 # Copy Backup Files from Backup SSD to PC
-# TODO
+. .\syncDrives.ps1
 # Generate and Copy SSH key to clipboard
 # TODO
