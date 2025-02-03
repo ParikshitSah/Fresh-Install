@@ -8,6 +8,7 @@ if (!(Get-Command winget -ErrorAction SilentlyContinue)) {
     Remove-Item Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle
 }
 
+# CHANGE THIS AND IMPORT FROM A TXT OR YAML 
 # Install software using winget
 winget install --id=Python.Python.3.13  -e
 winget install Git.Git
@@ -25,6 +26,8 @@ winget install --id=DigitalScholar.Zotero  -e
 winget install JanDeDobbeleer.OhMyPosh
 winget install Microsoft.WindowsTerminal
 winget install KiCad.KiCad
+winget install -e --id AivarAnnamaa.Thonny
+winget install -e --id Anaconda.Miniconda3
 
 # Refresh environment variables
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path", "Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path", "User")
